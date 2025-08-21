@@ -1,0 +1,68 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Rider
+.idea/
+
+# User-specific files
+*.userprefs
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# MAUI-specific
+Platforms/Android/obj/
+Platforms/iOS/obj/
+Platforms/MacCatalyst/obj/
+Platforms/Tizen/obj/
+Platforms/Windows/obj/
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.app
+*.apk
+*.aab
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Generated files
+*.cache
+*.db
+*.lock.json
+
+# Other
+*.log
+*.bak
+*.tmp
