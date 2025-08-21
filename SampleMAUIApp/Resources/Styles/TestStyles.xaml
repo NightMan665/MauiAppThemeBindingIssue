@@ -7,10 +7,7 @@
     <!-- Basic style -->
     <Style
         x:Key="LabelBaseStyle"
-        BaseResourceKey="LabelBaseStyle"
         TargetType="Label">
-        <Setter Property="FontSize" Value="Medium" />
-        <Setter Property="FontAttributes" Value="Bold" />
 
         <!-- This one with simple color works as expected -->
         <!-- <Setter Property="TextColor" Value="Green" />  -->
@@ -28,7 +25,7 @@
         <Setter Property="TextColor" Value="Red" />
     </Style>
 
-    <!-- This one inherits from second with overriden color (red) but displays green (from basic one) -->
+    <!-- This one inherits from the second with overridden color (red) but displays green (from the basic one) -->
     <Style
         x:Key="LabelBaseStyleFromRedWithPadding"
         BaseResourceKey="LabelBaseStyleRed"
